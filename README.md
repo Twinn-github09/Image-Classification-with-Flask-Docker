@@ -17,5 +17,5 @@ docker run -p 5000:5000 dog-cat-classifier-1
 https://github.com/Twinn-github09/Image-Classification-with-Flask-Docker/assets/88413854/234086f1-5b3c-44af-9c64-58338afc649b
 
 -----------
-Model Link : https://huggingface.co/spaces/Sa-m/Dogs-vs-Cats/blob/main/best_model.h5
-Docker Hub : https://hub.docker.com/r/roshandocker09/my_repo
+- Model Link : https://huggingface.co/spaces/Sa-m/Dogs-vs-Cats/blob/main/best_model.h5
+- Docker Hub : https://hub.docker.com/r/roshandocker09/my_repo
