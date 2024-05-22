@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body style="font-family: Arial, sans-serif; background: url('https://i.pinimg.com/originals/1f/af/92/1faf9268de7021ecc1d8c598204a7019.jpg') no-repeat center center fixed; background-size: cover; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <div style="background-color: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 10px; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); width: 300px; text-align: center;">
+        <h1 style="font-size: 24px; margin-bottom: 20px;">Prediction Result</h1>
+        <p>The prediction is: <strong>{{ prediction }}</strong></p>
+        <p>With probability: <strong>{{ percentage_float }}%</strong></p>
+        <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image" style="max-width: 100%; margin-top: 20px;">
+        <br>
+        <a href="/upload" style="background-color: #2a415a; color: #fff; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin-top: 20px; display: inline-block;">Upload Another Image</a>
+    </div>
+</body>
+</html>
