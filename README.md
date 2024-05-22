@@ -1,9 +1,9 @@
-# Iamge-Classification -Flask-Docker 💻
+# Image-Classification -Flask-Docker 💻
 
 - This web application allows users to upload images and get predictions about their contents using a pre-trained model.
 - It Classifies between Dogs and Cats 🐶 🐈 
 
-## Build
+## Docker Build
 ```
  docker build -t dog-cat-classifier-1 .
 ```
