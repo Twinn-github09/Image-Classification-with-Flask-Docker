@@ -18,3 +18,4 @@ https://github.com/Twinn-github09/Image-Classification-with-Flask-Docker/assets/
 
 -----------
 Model Link : https://huggingface.co/spaces/Sa-m/Dogs-vs-Cats/blob/main/best_model.h5
+Docker Hub : https://hub.docker.com/r/roshandocker09/my_repo
